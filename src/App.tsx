@@ -10,7 +10,8 @@ import {
   setupIonicReact
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { ellipse, square, triangle } from 'ionicons/icons';
+import { home, images, informationCircle } from 'ionicons/icons'; // Menggunakan ikon-ikon yang sesuai
+
 import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
@@ -54,18 +55,18 @@ const App: React.FC = () => (
             <Redirect to="/tab1" />
           </Route>
         </IonRouterOutlet>
-        <IonTabBar slot="bottom">
+        <IonTabBar slot="bottom" color="primary"> {/* Mengubah warna background menjadi primary */}
           <IonTabButton tab="tab1" href="/tab1">
-            <IonIcon aria-hidden="true" icon={triangle} />
-            <IonLabel>Tab 1</IonLabel>
+            <IonIcon aria-hidden="true" icon={home} /> {/* Menggunakan ikon home */}
+            <IonLabel>Home</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab2" href="/tab2">
-            <IonIcon aria-hidden="true" icon={ellipse} />
-            <IonLabel>Tab 2</IonLabel>
+            <IonIcon icon={images} /> {/* Menggunakan ikon images */}
+            <IonLabel>Photos</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab3" href="/tab3">
-            <IonIcon aria-hidden="true" icon={square} />
-            <IonLabel>Tab 3</IonLabel>
+            <IonIcon aria-hidden="true" icon={informationCircle} /> {/* Menggunakan ikon informationCircle */}
+            <IonLabel>About</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
