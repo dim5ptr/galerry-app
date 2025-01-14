@@ -24,7 +24,7 @@ const Tab3: React.FC = () => {
               <IonCard className="app-info-card ion-animatable" color="primary">
                 <IonCardContent>
                   <h3><b>Tentang Aplikasi</b></h3>
-                  <p>Aplikasi Gallery ini memungkinkan Anda untuk menjelajahi dan menikmati foto-foto menakjubkan yang diambil oleh berbagai pengguna. Anda juga dapat mengambil foto sendiri menggunakan fitur kamera dan menyimpannya ke penyimpanan internal perangkat Anda.</p>
+                  <p>Aplikasi Gallery ini memungkinkan Anda untuk mengambil foto-foto menakjubkan. Anda juga dapat mengambil foto sendiri menggunakan fitur kamera dan menyimpannya ke penyimpanan internal perangkat Anda.</p>
                 </IonCardContent>
               </IonCard>
             </IonCol>
