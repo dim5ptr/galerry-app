@@ -34,7 +34,7 @@ const Tab3: React.FC = () => {
               <IonCard className="ion-animatable" style={{ textAlign: 'center' }} color="primary">
                 <div className="logo-container">
                   <IonAvatar>
-                    <img alt="Siluet kepala seseorang" src="/public/pp.jpg" style={{ width: '100%', maxWidth: '150px', margin: '0 auto' }} />
+                    <img alt="Siluet kepala seseorang" src="/pp.jpg" style={{ width: '100%', maxWidth: '150px', margin: '0 auto' }} />
                   </IonAvatar>
                 </div>
                 <IonCardContent>
